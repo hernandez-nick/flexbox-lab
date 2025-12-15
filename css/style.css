@@ -14,8 +14,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 #destinations {
@@ -41,6 +40,19 @@ section {
     background-color: black;
     color: white;
     padding: 24px 72px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+#trending {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 16px;
+    align-items: center;
 }
 
 h1,
@@ -65,6 +77,7 @@ input {
     border-radius: 29px;
     border: 0px;
     padding: 0 24px;
+    align-items: center;
 }
 
 main {
